@@ -83,6 +83,8 @@ Result:
 
 **High Manipulation Risk Score**
 
+
+
 This demonstrates how CIVIS can warn users before misinformation spreads.
 
 ---
