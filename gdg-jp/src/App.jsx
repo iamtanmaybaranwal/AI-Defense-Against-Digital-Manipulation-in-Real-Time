@@ -617,7 +617,7 @@ const Analyzer = () => {
     try {
       const body = { text: text.trim() };
       if (imageData) body.image = { base64: imageData.base64, mimeType: imageData.mimeType };
-      const response = await fetch("http://localhost:5000/analyze", {
+      const response = await fetch("https://nischay-4kcd.onrender.com/", {
         method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body)
       });
       setResults(await response.json());
