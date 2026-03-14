@@ -1,10 +1,15 @@
 # CIVIS – Real-Time AI Defense Against Digital Manipulation
 
-🚀 **Live Demo:** https://nischay-gdgjp.netlify.app  
+🚀 **Live Demo:**  
+https://nischay-gdgjp.netlify.app
 
 CIVIS is an AI-powered system that detects **psychological manipulation in digital content before misinformation spreads.**
 
-Instead of asking **“Is this news true?”**, CIVIS asks a deeper question:
+Instead of asking:
+
+❓ *“Is this news true?”*
+
+CIVIS asks a deeper question:
 
 > **“Is this content engineered to manipulate human behavior?”**
 
@@ -25,67 +30,60 @@ Manipulative content often uses psychological triggers such as:
 
 These tactics bypass rational thinking and encourage people to **react and share content instantly**.
 
-By the time fact-checkers verify the information, **the narrative may already have spread widely**.
+By the time fact-checkers verify the information, **the narrative may already have spread widely.**
 
 ---
 
 # Our Solution
 
-CIVIS introduces a **real-time AI system that detects manipulation signals in digital content**.
+CIVIS introduces a **real-time AI system that detects manipulation signals in digital content.**
 
-The system analyzes **multiple types of input**, including:
+The platform analyzes **multiple types of input**:
 
-- Text
-- Voice
-- Images
+- Text content
+- Voice input
+- Images / screenshots
 
 CIVIS evaluates psychological influence patterns and generates a **Manipulation Risk Score** with explanation.
 
-This helps users **pause and critically evaluate content before believing or sharing it.**
+This helps users **pause and critically evaluate information before believing or sharing it.**
 
 ---
 
 # Key Features
 
 ### Multi-Modal Content Analysis
-CIVIS can analyze **text, voice input, and images** to detect manipulation signals.
+Analyze **text, voice, and images** for manipulation signals.
 
 ### Real-Time Manipulation Detection
-Identifies psychological manipulation patterns instantly.
+Detect psychological manipulation patterns instantly.
 
-### Emotional Trigger Analysis
-Detects fear, urgency, outrage, and identity-based persuasion techniques.
+### Emotional Trigger Detection
+Identify fear, urgency, outrage, and identity-based persuasion tactics.
 
 ### Explainable AI
-Provides a clear explanation of **why content was flagged**.
+Provides reasoning for why content was flagged.
 
 ### Manipulation Risk Score
-Generates a **risk intelligence score** indicating how strongly content attempts to influence behavior.
+Generates a risk score indicating how strongly content attempts to influence behavior.
 
 ### Scalable Architecture
-Designed to integrate with browsers, media platforms, and fact-checking tools.
+Designed for browser extensions, media tools, and platform APIs.
 
 ---
 
-# Live Demonstration
+# APIs & Services Used
 
-Example viral claim:
+CIVIS integrates several powerful APIs:
 
-> “Burj Khalifa attacked by drones.”
+### Groq API
+Used for **high-speed LLM inference** and AI-based content analysis.
 
-CIVIS analyzes the content and detects:
+### Serper API
+Used for **real-time web search results** to verify claims and gather context.
 
-- Fear trigger
-- Urgency framing
-- Geopolitical narrative
-
-Result:
-
-**High Manipulation Risk Score**
-
-
-
-This demonstrates how CIVIS can warn users before misinformation spreads.
+### NewsAPI
+Used to fetch **relevant news sources** and check credibility signals.
 
 ---
 
@@ -104,26 +102,8 @@ This demonstrates how CIVIS can warn users before misinformation spreads.
 - Transformer-based NLP models
 - Multilingual embeddings
 - Emotion classification
-- Pattern detection algorithms
+- Manipulation pattern detection
 
 ---
 
-# Deployment Vision
-
-CIVIS can be deployed as:
-
-• Browser extension for real-time content analysis  
-• API for social media moderation systems  
-• Media tools for journalists and fact-checkers  
-
-Our goal is to create an **AI-powered intelligence layer for the digital information ecosystem.**
-
----
-
-# Team Nischay
-
-Developed for **GDG Jaipur Hackathon**
-
-Team Members:
-- Tanmay Baranwal
-- Shravani Jadhav
+# Project Structure
