@@ -107,3 +107,121 @@ Used to fetch **relevant news sources** and check credibility signals.
 ---
 
 # Project Structure
+
+backend
+│
+├── civisAnalyzer.js
+├── civisAnalyzer(t).js
+├── server.js
+├── package.json
+│
+
+gdg-jp
+│
+├── public
+├── src
+│ ├── assets
+│ ├── components
+│ ├── App.jsx
+│ ├── main.jsx
+│
+├── index.html
+├── vite.config.js
+
+
+---
+
+# Running the Project Locally
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-repo/civis.git
+cd civis
+
+
+---
+
+# Running the Project Locally
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-repo/civis.git
+cd civis
+
+2. Setup Backend
+
+Navigate to the backend folder:
+
+cd backend
+
+Install dependencies:
+
+npm install
+
+Create a .env file and add your API keys:
+
+GROQ_API_KEY=your_groq_api_key
+SERPER_API_KEY=your_serper_api_key
+NEWS_API_KEY=your_news_api_key
+
+Start the backend server:
+
+node server.js
+3. Setup Frontend
+
+Open a new terminal and navigate to frontend:
+
+cd gdg-jp
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+The app will run locally on:
+
+http://localhost:5173
+Example Use Case
+
+Example viral claim:
+
+“Burj Khalifa attacked by drones.”
+
+CIVIS analyzes the message and detects:
+
+Fear trigger
+
+Urgency framing
+
+Geopolitical narrative
+
+Result:
+
+High Manipulation Risk Score
+
+This demonstrates how CIVIS can warn users before misinformation spreads.
+
+Deployment Vision
+
+CIVIS can be deployed through:
+
+Browser extension for real-time detection
+
+Platform API integration for social media moderation
+
+Tools for journalists and fact-checkers
+
+Our goal is to build an AI-powered intelligence layer for the digital information ecosystem.
+
+Team Nischay
+
+Built for GDG Jaipur Hackathon
+
+Team Members:
+- Tanmay Baranwal
+- Shravani Jadhav
