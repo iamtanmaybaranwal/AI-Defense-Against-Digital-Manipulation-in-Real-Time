@@ -3,6 +3,8 @@
 🚀 **Live Demo:**  
 https://nischay-gdgjp.netlify.app  
 
+This Project is used in GDG Jaipur Hackcrux Hackathon and was selected in top 10 teams among 120 teams.
+
 CIVIS is an AI-powered system that detects **psychological manipulation in digital content before misinformation spreads.**
 
 Instead of asking:
